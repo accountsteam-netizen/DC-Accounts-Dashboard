@@ -1129,7 +1129,10 @@ a { color: inherit; text-decoration: none; }
         </div>
         <div class="filter-group">
           <span class="filter-label">Status</span>
-          <select class="filter-select" id="deal-status"><option value="">All</option></select>
+          <div class="multi-select-wrap" id="deal-status-wrap">
+            <button class="multi-select-btn" id="deal-status-btn" type="button">All statuses <span class="ms-arrow">▾</span></button>
+            <div class="multi-select-dropdown" id="deal-status-dropdown"></div>
+          </div>
         </div>
         <div class="filter-group">
           <span class="filter-label">Customer</span>
